@@ -1,0 +1,32 @@
+#Black-Background {
+    background-color: #121212;
+}
+
+.options {
+    width: 20em;
+    height: 20em;
+    background-color: #1f1e1e;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, 80%);
+}
+
+.options p {
+    transform: translate(0, 600%);
+}
+
+.center button::before {
+    transition: ease-in-out 0.3s;
+}
+
+.center button:hover {
+    width: 21em;
+    height: 21em;
+    background-color: white;
+    color: #1f1e1e;
+}
